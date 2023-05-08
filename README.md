@@ -13,7 +13,8 @@ This Python script uses the `face_recognition` library and OpenCV to detect and 
 1. Clone or download the code from this repository.
 2. Install the required libraries as described in the Dependencies section above.
 3. Place the images you want to group in a directory. The directory path should be updated in the `directory` variable in the script.
-4. Run the script with `python face_grouping.py`.
+4. Run the script with `python main.py`.
 5. The script will group the faces in the images and display the grouped images in a graphical user interface.
+6. Run the following command to run the FAST API server using `uvicorn` package on port 8000: `uvicorn server:app --reload`.
 
 Note: The script works with JPEG, PNG, and JPG file types. If your images are in a different format, you will need to modify the script accordingly.
